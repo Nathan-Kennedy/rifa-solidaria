@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rifa Solidária</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="navbar-brand">Sorteio Solidário</h1>
+  </header>
+  <div class="container">
+    <h1>🎀 Rifa Solidária – Dia das Mães</h1>
+    <p class="subtitulo">Essa rifa foi criada para ajudar em tratamentos médicos da nossa querida amiga <strong>Noraney</strong>. Obrigado a todos que estão participando dessa ação solidária e boa sorte!</p>
+
+    <div class="raffle-box">
+      <div class="number-display" id="number-display">?</div>
+      <button id="raffle-button">Sortear Número</button>
+    </div>
+    <div id="winner-display" class="hidden"></div>
+
+    <!-- Lista de agradecimento -->
+    <div class="thank-you-section">
+      <p class="thank-you-message">Com carinho, agradecemos seu apoio!</p>
+      <div class="name-display" id="name-display">
+        <!-- Os nomes serão exibidos dinamicamente pelo script.js -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
